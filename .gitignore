@@ -1,0 +1,9 @@
+# Local Claude Code tooling
+.claude/
+
+# Planning / handoff docs (not for public deployment)
+website-migration-spec.md
+
+# OS cruft
+.DS_Store
+Thumbs.db

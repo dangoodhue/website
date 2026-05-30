@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me — Daniel Goodhue</title>
+  <meta name="description" content="About Daniel Goodhue — linguist, researcher, and writer.">
+  <meta property="og:title" content="About Me — Daniel Goodhue">
+  <meta property="og:description" content="About Daniel Goodhue — linguist, researcher, and writer.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.danielgoodhue.com/about">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="./index.html" class="site-name">Daniel Goodhue</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./publications.html">Publications</a></li>
+        <li><a href="./about.html" class="active">About</a></li>
+        <li><a href="./what-is-a-linguist.html">What is a Linguist?</a></li>
+        <li><a href="./files/Goodhue-2025-CV2.pdf">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>About Me</h1>
+
+      <div class="clearfix">
+        <img src="./images/Humble-Lion-2.jpg" alt="Daniel Goodhue" class="about-photo float-right">
+
+        <p>I have held positions as a research scientist in linguistics at several institutions. Most recently I was at the <strong>Leibniz-Centre for General Linguistics (ZAS)</strong> in Berlin, Germany, where I worked in Manfred Krifka's ERC project "Speech Acts in Grammar and Discourse (SPAGAD)." Before that I was at the <strong>University of Maryland&thinsp;&ndash;&thinsp;College Park</strong>, in the Department of Linguistics, where I worked with Valentine Hacquard, Jeffrey Lidz, and Alexander Williams. I did my PhD at <strong>McGill University</strong>, in the Department of Linguistics, where I was advised by Michael Wagner, Bernhard Schwarz, and Luis Alonso-Ovalle.</p>
+
+        <p>In addition to my research, I enjoy teaching, advising, and helping to foster the intellectual life of my local linguistics community. At every stage of my career I have organized and actively participated in reading groups and presentation groups in my local community.</p>
+      </div>
+
+      <img src="./images/2021-dolly-sods.jpg" alt="Backpacking in the Dolly Sods Wilderness in West Virginia" class="about-photo" style="max-width: 500px; margin: 2em auto;">
+      <p class="photo-caption" style="text-align: center;">Backpacking in the Dolly Sods Wilderness in West Virginia</p>
+
+      <p>When I'm not doing research, I spend time with my wife, <a href="https://rebeccafishow.com">Rebecca Fishow</a>, the author of <em>The Trouble with Language</em>, and our son. We like to go hiking and visit our friends. I also write music and fiction. To me, making linguistics artifacts (articles, slides, handouts, posters, experiments) is on a continuum with making more purely aesthetic artifacts (songs and stories). They are produced in the service of different goals, but both require time and attention, and lots and lots of revision according to your intuitive preferences.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; 2025 Daniel Goodhue</div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
