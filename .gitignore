@@ -14,3 +14,6 @@ Thumbs.db
 !.dev.vars.example
 .env*
 !.env.example
+
+# notes to self about how to push and pull with git
+0_git_instructions.txt
