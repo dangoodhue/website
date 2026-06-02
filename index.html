@@ -42,9 +42,6 @@
       </div>
 
       <div class="home-intro">
-        <!-- PLACEHOLDER: Daniel, replace this paragraph with your own intro text.
-             A few sentences about who you are — framed as someone who did linguistics
-             and now does other things, not as an active academic. -->
         <p>I am a linguistics PhD. My research explains complex linguistic phenomena from independently motivated grammatical representations (syntax, semantics, and prosody) and pragmatic principles. I employ experimental methods to investigate both adult and child language. Phenomena I’ve worked on include clause types and speech acts, clausal embedding, biased questions, focus and intonational contours, response particles, wh-indefinites, and epistemic modality. I currently work in industry, where I’m using my language science expertise to support the creation of speech-to-text AI software for underserved languages. Links to various papers and collaborators below. Feel free to get in touch!</p>
       </div>
 
@@ -62,13 +59,14 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">&copy; 2025 Daniel Goodhue</div>
+    <div class="container">&copy; <span id="year">2026</span> Daniel Goodhue</div>
   </footer>
 
   <script>
     document.querySelector('.nav-toggle').addEventListener('click', function() {
       document.querySelector('.nav-links').classList.toggle('open');
     });
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 
 </body>
