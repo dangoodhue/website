@@ -1,13 +1,13 @@
 # Redirect old Squarespace /s/ PDF paths to new locations
-/s/Goodhue-2025-CV2.pdf  /files/Goodhue-2025-CV2.pdf  301
+/s/Goodhue-2025-CV2.pdf  /files/Goodhue-2026-CV1.pdf  301
 /s/Goodhue-2022-AC-proceedings-page-numbers.pdf  /files/Goodhue-2022-AC-proceedings-page-numbers.pdf  301
 /s/Goodhue-AC-HNQ-4-handout.pdf  /files/Goodhue-AC-HNQ-4-handout.pdf  301
 /s/Goodhue-Shimoyama-2022-AC-proceedings-page-numbers.pdf  /files/Goodhue-Shimoyama-2022-AC-proceedings-page-numbers.pdf  301
 /s/Goodhue-Shimoyama-2022-AC-handout.pdf  /files/Goodhue-Shimoyama-2022-AC-handout.pdf  301
 /s/2016_Goodhue-et-al_NELS.pdf  /files/2016_Goodhue-et-al_NELS.pdf  301
 
-# Redirect old CV path (common bookmark)
-/cv.pdf  /files/Goodhue-2025-CV2.pdf  301
+# Redirect generic CV path to the current CV (update target when CV changes)
+/cv.pdf  /files/Goodhue-2026-CV1.pdf  301
 
 # Cloudflare Pages: clean URLs (about.html -> /about, etc.)
 # This is handled automatically by Cloudflare Pages when using .html files
